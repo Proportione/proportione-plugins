@@ -40,6 +40,7 @@ Hard-won lessons from running Claude Code in a real production environment:
 | [Operational Rules](guides/operational-rules.md) | Governance rules for Claude Code in automation pipelines |
 | [GCP Patterns](guides/gcp-patterns.md) | Cloud Run, Firestore, BigQuery patterns we use daily |
 | [Sales & Marketing](guides/sales-marketing-with-claude.md) | CRM, prospecting, content, social media — all from the terminal |
+| [Spec-Driven Ecosystem](guides/spec-driven-ecosystem.md) | GSD, Superpowers, SuperClaude, Alfred Dev — how spec tools complement QA |
 
 ## Our stack
 
