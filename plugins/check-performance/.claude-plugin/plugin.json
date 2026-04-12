@@ -1,0 +1,1 @@
+{"name":"check-performance","version":"1.0.0","description":"Performance analysis: N+1 queries, bundle size, Web Vitals, Lighthouse, GCP sizing","license":"MIT"}

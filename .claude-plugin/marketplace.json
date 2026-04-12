@@ -1,0 +1,58 @@
+{
+  "name": "proportione-plugins",
+  "owner": {
+    "name": "Proportione"
+  },
+  "metadata": {
+    "description": "QA and DevOps skills for multi-stack projects: code review, security audits, architecture validation, performance analysis, WordPress QA, visual regression, IaC validation, bug triage.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "deep-review",
+      "source": "./plugins/deep-review",
+      "description": "Deep code review for PRs, commits, or files — logic, naming, complexity, tests, security"
+    },
+    {
+      "name": "check-security",
+      "source": "./plugins/check-security",
+      "description": "OWASP-based security audit with Semgrep and manual analysis"
+    },
+    {
+      "name": "check-architecture",
+      "source": "./plugins/check-architecture",
+      "description": "Validate code against architectural conventions defined in CLAUDE.md"
+    },
+    {
+      "name": "check-performance",
+      "source": "./plugins/check-performance",
+      "description": "Performance analysis: N+1 queries, bundle size, Web Vitals, Lighthouse, GCP sizing"
+    },
+    {
+      "name": "check-wordpress",
+      "source": "./plugins/check-wordpress",
+      "description": "Full WordPress QA: accessibility, SEO, links, images, security, performance"
+    },
+    {
+      "name": "check-wp-visual",
+      "source": "./plugins/check-wp-visual",
+      "description": "Visual regression testing for WordPress sites using Playwright"
+    },
+    {
+      "name": "check-terraform",
+      "source": "./plugins/check-terraform",
+      "description": "IaC validation: terraform validate/plan + Checkov + Semgrep"
+    },
+    {
+      "name": "triage-bug",
+      "source": "./plugins/triage-bug",
+      "description": "Automated bug triage: error analysis, root cause, fix, and PR creation"
+    },
+    {
+      "name": "update-whitepaper",
+      "source": "./plugins/update-whitepaper",
+      "description": "Monthly QA whitepaper update with metrics collection and source research"
+    }
+  ]
+}
