@@ -1,0 +1,33 @@
+name: Question
+description: Pregunta sobre uso de un plugin o guía.
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de abrir una pregunta como Issue, considera usar [Discussions](https://github.com/Proportione/proportione-plugins/discussions) — así quedan disponibles para otros usuarios.
+
+        Usa Issue solo si la pregunta apunta a un posible fallo o limitación del plugin.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Qué intentas conseguir.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: Qué has probado
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Pregunta concreta
+    validations:
+      required: true

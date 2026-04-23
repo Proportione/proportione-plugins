@@ -1,5 +1,19 @@
 # Proportione Plugins — Claude Code Playbook
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-marketplace-D97706)](https://docs.claude.com/en/docs/claude-code/plugins)
+[![Plugins](https://img.shields.io/badge/plugins-9-5F322F)](#plugins-9-qa-skills)
+[![Guides](https://img.shields.io/badge/guides-8-3B431C)](#playbook-guides)
+[![Last commit](https://img.shields.io/github/last-commit/Proportione/proportione-plugins)](https://github.com/Proportione/proportione-plugins/commits/main)
+
+**One-liner install:**
+
+```bash
+claude plugin marketplace add Proportione/proportione-plugins
+```
+
+---
+
 How a 1-3 person IT consultancy uses Claude Code to manage 13 WordPress sites, 4 GCP microservices, a scientific monorepo, and IaC infrastructure — with quality.
 
 ## What's here
@@ -54,9 +68,17 @@ Hard-won lessons from running Claude Code in a real production environment:
 
 We wrote a [whitepaper](guides/qa-framework.md) arguing that AI-generated code needs AI-assisted QA. These are the tools we built to back that argument. If you run a small team writing code with Claude, these skills and patterns might save you time.
 
+## Community
+
+- [Discussions](https://github.com/Proportione/proportione-plugins/discussions) — questions, ideas, use cases
+- [Issues](https://github.com/Proportione/proportione-plugins/issues) — bugs, feature requests
+- [Contributing](CONTRIBUTING.md) — how to propose changes
+- [Security policy](SECURITY.md) — how to report vulnerabilities
+- [Code of conduct](CODE_OF_CONDUCT.md)
+
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ---
 

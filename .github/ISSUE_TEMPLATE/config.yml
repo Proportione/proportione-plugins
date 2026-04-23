@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussion
+    url: https://github.com/Proportione/proportione-plugins/discussions
+    about: Preguntas abiertas, ideas, casos de uso, pedir feedback.
+  - name: 🔒 Security
+    url: https://github.com/Proportione/proportione-plugins/blob/main/SECURITY.md
+    about: Reportar una vulnerabilidad (no uses issues públicos).
+  - name: 🌐 proportione.com
+    url: https://proportione.com
+    about: Quiénes somos y cómo trabajamos.

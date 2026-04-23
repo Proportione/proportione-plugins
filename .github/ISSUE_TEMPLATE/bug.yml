@@ -1,0 +1,83 @@
+name: Bug report
+description: Algo de un plugin o guía no funciona como debería.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar. Por favor rellena todo lo que puedas — nos ahorra ida y vuelta.
+
+  - type: dropdown
+    id: affected
+    attributes:
+      label: Plugin o guía afectada
+      options:
+        - "plugin: deep-review"
+        - "plugin: check-security"
+        - "plugin: check-architecture"
+        - "plugin: check-performance"
+        - "plugin: check-wordpress"
+        - "plugin: check-wp-visual"
+        - "plugin: check-terraform"
+        - "plugin: triage-bug"
+        - "plugin: update-whitepaper"
+        - "guide: claude-md-as-contract"
+        - "guide: mcp-servers"
+        - "guide: playwright-tricks"
+        - "guide: qa-framework"
+        - "guide: operational-rules"
+        - "guide: gcp-patterns"
+        - "guide: sales-marketing-with-claude"
+        - "guide: spec-driven-ecosystem"
+        - "other"
+    validations:
+      required: true
+
+  - type: input
+    id: claude-version
+    attributes:
+      label: Claude Code versión
+      placeholder: "claude --version"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Sistema operativo
+      placeholder: "macOS 15.1 / Ubuntu 24.04 / Windows 11 …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. Instalo el marketplace con `claude plugin marketplace add Proportione/proportione-plugins`
+        2. Ejecuto `claude plugin install deep-review@proportione-plugins`
+        3. Abro Claude Code y ejecuto `/deep-review`
+        4. Observo …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado real
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs o salida relevante
+      render: shell

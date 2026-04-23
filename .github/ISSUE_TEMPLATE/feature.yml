@@ -1,0 +1,37 @@
+name: Feature request
+description: Propón un plugin, guía o mejora.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Para cambios grandes (nuevo plugin, nueva guía, refactor amplio), considera abrir una [Discussion](https://github.com/Proportione/proportione-plugins/discussions) primero.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema que resuelve
+      description: Qué limitación o fricción tienes hoy.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Qué plugin, guía o cambio resolvería el problema.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: ¿Hay herramientas, plugins o workarounds existentes? ¿Por qué no bastan?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto adicional
+      description: Stack, escala, tipo de proyecto donde aplicarías esta mejora.
