@@ -1,6 +1,6 @@
 # Operational Rules for Claude Code in Automation Pipelines
 
-When Claude Code generates artifacts that other systems execute (Pabbly, Stackby, Cloud Tasks), you need governance rules. These are ours.
+When Claude Code generates artifacts that other systems execute (Pabbly, Cloud Tasks), you need governance rules. These are ours.
 
 ## The core constraint
 

@@ -8,7 +8,7 @@ A 1-3 person consultancy can't afford dedicated marketing tools at enterprise pr
 
 | Area | Tools | Claude's role |
 |------|-------|---------------|
-| CRM | Stackby (SoT), LeadCRM, Skarbe | Built MCP server for CRM access from terminal |
+| CRM | Firestore (SoT), LeadCRM, Skarbe | Built MCP server for CRM access from terminal |
 | Email marketing | Acumbamail, Brevo, SendFox | Generates drafts, follow-ups via CRM MCP |
 | SEO | Semdash, ClickRank, Search Console | Analyzes Search Console data via BI MCP |
 | Analytics | GA4, Looker Studio, Growify | GA4 reports accessible via BI MCP |
